@@ -15,10 +15,10 @@ body {
   font-family: 'Helvetica'
 }
 
-.container{
+.container-fluid{
   position: relative;
-  text-align: center;
   display: flex;
+  text-align: center;
 }
 
 .centered {
@@ -40,6 +40,8 @@ body {
 div {
   flex-direction: column;
 }
+
+
 
 div.image {
   display:flex;
