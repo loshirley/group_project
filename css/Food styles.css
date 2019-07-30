@@ -15,12 +15,60 @@ body {
   font-family: 'Helvetica'
 }
 
-main {
-  padding: 1em;
+.container{
+  position: relative;
+  text-align: center;
+  display: flex;
 }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 10em;
+  color: white;
+  /* font-style: italic; */
+  letter-spacing: 8px;
+}
+
+
+/* main {
+  padding: 1em;
+} */
 
 div {
   flex-direction: column;
+}
+
+div.image {
+  display:flex;
+}
+
+#image1 {
+  object-fit:cover;
+}
+
+div.centre {
+  justify-content: center;
+  display:flex;
+  flex-direction: row;
+  color: grey;
+}
+
+div.socialmediaicons{
+  /* margin: auto; */
+  width: 30%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  margin-top: 50px
+}
+
+#sign-up {
+  text-align: center;
+  display: block;
+  margin-top: 40px;
 }
 
 div.card-header {
@@ -29,15 +77,31 @@ div.card-header {
   text-align: center;
 }
 
-a.instagram {
+div.carousel-inner {
+  height: 800px;
+  object-fit: cover;
+}
+
+/* a.instagram {
   padding: 1px;
   width: 50px;
   text-align: center;
   text-decoration: none;
   color: black;
-}
+} */
 
-svg.instagram-svg {
-  colour: black;
-  width: 20px
-}
+/* svg.instagram-svg {
+  colour: blue;
+  width: 20px;
+} */
+
+/* img.carouselImage {
+  height: 500px;
+  object-position: center;
+  justify-content: center;
+  display: block;
+} */
+/*
+div.carousel-inner{
+  justify-content: center;
+} */
